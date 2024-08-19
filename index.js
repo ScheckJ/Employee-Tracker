@@ -1,7 +1,6 @@
 const inquirer = require('inquirer');
 const { Client } = require('pg');
 
-// Database connection
 const client = new Client({
   user: 'postgres',
   host: 'localhost',
